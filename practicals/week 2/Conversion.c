@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <math.h>
+
 int main(void) {
 	/* Declare variables */
 	int i,inum,tmp,numdigits;
@@ -18,7 +19,7 @@ int main(void) {
 	}
 	/* Terminate the string */
 	binnum[i] = '\0';
-	/* Complete the expression */
+	/* Calculate the number of digits in inum in base 2 and print as int */
 	numdigits = ceil( logf(inum)/logf(2) );
 	printf("The number of digits is %d\n",numdigits);
 	printf("inum=%d, fnum=%f, inum in binary=%s\n",
