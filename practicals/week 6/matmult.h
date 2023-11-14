@@ -64,6 +64,5 @@ void multiply_matrices(void) {
         }
         printf("\n");
     }
-
 }
 
