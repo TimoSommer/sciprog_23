@@ -1,6 +1,6 @@
 # Scientific Programming Concepts PH502/ACM40660 Autumn 2023
 
-## This repo
+## This repo   
 This repo is for the ICHEC Scientific Programming course. All practicals and assignments are done in C. To compile each source code (ending with .c) use the command `gcc -o YOURCODE YOURCODE.c -lm` on the sciprog cluster.
 
 ### Content
